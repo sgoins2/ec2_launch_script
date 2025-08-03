@@ -1,0 +1,35 @@
+# Ignore VS Code settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Shell history
+.bash_history
+
+# Sensitive files (don't store AWS credentials or PEM keys)
+*.pem
+*.key
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Terraform files (if using Terraform later)
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Temporary files
+*.swp
+*.tmp
+
+# Node.js (if you use it)
+node_modules/
+
+# Env files
+.env
